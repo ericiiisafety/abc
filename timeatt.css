@@ -1,0 +1,65 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-size: 12px;
+    background-color: rgb(255,255,255);
+  
+  }
+  
+  h1{
+    margin: auto;
+    text-align: center;
+  
+  }
+  
+  #qr-reader{
+   
+  }
+  #qr-reader-results{
+    
+  }
+  
+  h2{
+    margin: 50px 10px 10px 10px;
+    text-align: center;
+  
+  }
+  
+  /*menu starts*/
+  .menu-button {
+      font-size: 30px;
+      cursor: pointer;
+      display: none; /* Hidden by default, shown in small screens */
+  }
+  
+  .menu-content ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background-color: #333;
+      width: 200px;
+      position: absolute;
+      top: 40px;
+      left: -250px; /* Hide menu off-screen */
+      transition: left 0.3s;
+  }
+  
+  .menu-content ul li a {
+      color: white;
+      padding: 10px;
+      display: block;
+      text-decoration: none;
+  }
+  
+  .menu-content ul li a:hover {
+      background-color: #555;
+  }
+  
+  /* Media query for screen width less than 600px */
+  @media (max-width: 600px) {
+      .menu-button {
+          display: block;
+      }
+  }
+  
+  /*menu ends*/
